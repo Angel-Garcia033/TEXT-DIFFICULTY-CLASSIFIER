@@ -1,0 +1,17 @@
+results/
+
+.idea/
+
+*.pt
+*.bin
+*.safetensors
+*.json
+*.txt
+*.pth
+*.iml
+Untitled 1.csv
+
+!Analizer.py
+!Normalizer.py
+!dataset.csv
+!README.md
