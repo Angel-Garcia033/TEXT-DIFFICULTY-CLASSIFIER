@@ -16,7 +16,6 @@ df["text"] = df["text"].astype(str).str.strip()
 # ========================
 # 2. Codificación de la etiqueta
 # ========================
-
 encoder = LabelEncoder()
 df["label"] = encoder.fit_transform(df["grade"])
 
