@@ -5,7 +5,7 @@ from datasets import Dataset
 from transformers import BertTokenizerFast, BertForSequenceClassification, Trainer, TrainingArguments
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
-import torch 
+import torch
 
 # ========================
 # 1. Carga y normalización
@@ -82,7 +82,7 @@ training_args = TrainingArguments(
     learning_rate=2e-5,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
-    num_train_epochs=3,
+    num_train_epochs=1,
     weight_decay=0.01,
     logging_dir="./logs",
     logging_strategy="epoch",
