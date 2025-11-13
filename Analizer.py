@@ -11,6 +11,7 @@ import numpy as np
 # =========================================
 # 1️⃣ Cargar tokenizer y modelo
 # =========================================
+
 checkpoint_path = r"C:\Proyectos Programación\New folder\New folder\results\checkpoint-3165"
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 model = BertForSequenceClassification.from_pretrained(checkpoint_path)
